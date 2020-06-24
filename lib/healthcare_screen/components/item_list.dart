@@ -14,6 +14,7 @@ class ItemList extends StatelessWidget {
         children: <Widget>[
           ItemCard(
             svgSrc: "assets/icons/burger_beer.svg",
+            
             title: "Burger & Beer",
             shopName: "McDonald's",
             press: () {
